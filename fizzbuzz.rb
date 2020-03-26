@@ -2,8 +2,8 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  if (int(num))%3
+  if num.to_i % 3
     puts "Fizz"
-  elsif (int(num/5
+  elsif num.to_i % 5
     puts "Buzz"
 end
